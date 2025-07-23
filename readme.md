@@ -11,7 +11,7 @@
 
 2. Clone the repository:
 
-   ```bash
+   ```sh
     git clone git@github.com:dthtien/code_test.git
     cd code_test
     ```
@@ -19,13 +19,13 @@
 
 With Docker:
 
-    ```bash
+    ```sh
     docker build -t simulator .
     ```
 
 Without Docker:
 
-    ```bash
+    ```sh
     bundle install
     ```
 
@@ -33,7 +33,7 @@ Without Docker:
 
 With Docker:
 
-    ```bash
+    ```sh
     # to run the simulator with default test commands
     docker run --rm -i seek_code ruby bin/main.rb < test_data.txt
 
@@ -42,7 +42,7 @@ With Docker:
     ```
 With Docker:
 
-    ```bash
+    ```sh
     # Run with default test commands
     ruby ./bin/main.rb < test_data.txt
     # Manually input commands
@@ -53,12 +53,12 @@ With Docker:
 
 With Docker:
 
-    ```bash
+    ```sh
     docker run --rm -it seek_code rspec
     ```
 Without Docker:
 
-    ```bash
+    ```sh
     bundle exec rspec
     ```
 
