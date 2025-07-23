@@ -5,7 +5,7 @@
 
 ## Installation
 
-1. Install Ruby and Docker(optional):
+1. Install Ruby or Docker(optional):
    - For Ruby, follow the instructions at [Ruby Installation Guide](https://www.ruby-lang.org/en/documentation/installation/).
    - For Docker, follow the instructions at [Docker Installation Guide](https://docs.docker.com/get-docker/).
 
