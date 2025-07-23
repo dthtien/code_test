@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 require_relative '../lib/simulator'
 
-puts 'Toy Robot Simulator'
+puts 'Dthtien Robot Simulator'
 puts 'Enter commands (PLACE X,Y,F | MOVE | LEFT | RIGHT | REPORT). Type EXIT or press Ctrl+D to quit.'
 
 simulator = Simulator.new

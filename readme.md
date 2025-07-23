@@ -1,16 +1,20 @@
 # Simulator
 
 ## Prerequisites
-- Ruby 3.4.4
+- Ruby 3.0 or higher(currently developed with Ruby 3.4.4)
 
 ## Installation
 
-1. Clone the repository:
+1. Install Ruby and Docker(optional):
+   - For Ruby, follow the instructions at [Ruby Installation Guide](https://www.ruby-lang.org/en/documentation/installation/).
+   - For Docker, follow the instructions at [Docker Installation Guide](https://docs.docker.com/get-docker/).
+
+2. Clone the repository:
    ```bash
     git clone git@github.com:dthtien/code_test.git
     cd code_test
     ```
-2. Install dependencies:
+3. Install dependencies:
 
 With Docker:
     ```bash
@@ -22,7 +26,7 @@ Without Docker:
     bundle install
     ```
 
-3. Run the simulator:
+4. Run the simulator:
 
 With Docker:
     ```bash
@@ -40,7 +44,7 @@ With Docker:
     ruby ./bin/main.rb
     ```
 
-4. To run the tests:
+5. To run the tests:
 
 With Docker:
     ```bash
