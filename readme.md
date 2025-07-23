@@ -7,10 +7,11 @@
 
 1. Clone the repository:
    ```bash
-    git clone  git@github.com:dthtien/code_test.git
-    cd code_test/simulator
+    git clone git@github.com:dthtien/code_test.git
+    cd code_test
     ```
 2. Install dependencies:
+
 With Docker:
     ```bash
     docker build -t simulator .
@@ -22,6 +23,7 @@ Without Docker:
     ```
 
 3. Run the simulator:
+
 With Docker:
     ```bash
     # to run the simulator with default test commands
@@ -39,6 +41,7 @@ With Docker:
     ```
 
 4. To run the tests:
+
 With Docker:
     ```bash
     docker run --rm -it seek_code rspec
