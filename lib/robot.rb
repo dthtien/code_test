@@ -5,7 +5,7 @@ class Robot
 
   def initialize(table = Table.new)
     @table = table
-    @position = Position.new
+    @position = nil
   end
 
   def place(x, y, facing)

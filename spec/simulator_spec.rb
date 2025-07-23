@@ -3,6 +3,11 @@ require 'spec_helper'
 RSpec.describe Simulator do
   let(:sim) { Simulator.new }
 
+  it 'ignores commands before PLACE' do
+    expect(sim.process(Simulator::MOVE)).to be_nil
+    expect(sim.process(Simulator::REPORT)).to be_nil
+  end
+
   it 'places the robot correctly' do
     sim.process('PLACE 1,2,EAST')
     expect(sim.robot.report).to eq('1,2,EAST')
