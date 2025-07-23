@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class Table
   DEFAULT_SIZE = 5
   attr_reader :width, :height
