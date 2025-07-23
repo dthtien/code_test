@@ -1,4 +1,5 @@
 # frozen_string_literal: true
+require_relative 'table'
 
 class Simulator
   DIRECTIONS = %w[NORTH EAST SOUTH WEST]
